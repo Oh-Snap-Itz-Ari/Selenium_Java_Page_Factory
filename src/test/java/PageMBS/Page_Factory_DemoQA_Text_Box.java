@@ -27,7 +27,7 @@ public class Page_Factory_DemoQA_Text_Box {
     }
 
     public void CloseDriver(){
-        driver.quit(); // Se indica que el driver que nos envien es el que tenemos en nuestra clase
+        driver.close(); // Se indica que el driver que nos envien es el que tenemos en nuestra clase
     }
 
     public void WriteName(String name){
